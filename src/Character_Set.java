@@ -21,6 +21,20 @@ public class Character_Set {
             String Set = "abcdefghijklmnopqrstuvwxyz";
             this.Characters_Array = Set.toCharArray();
         }
+        else if(Character_Number == 52){
+            String Set = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
+            this.Characters_Array = Set.toCharArray();
+        }
+        else if(Character_Number ==  28){
+            String Set = "abcdefghijklmnopqrstuvwxyz./";
+            this.Characters_Array = Set.toCharArray();
+        }
+    }
+
+    //Custom Character Set initialization
+    public Character_Set(int Character_Number, String Set){
+        this.Character_Number = Character_Number;
+        this.Characters_Array = Set.toCharArray();
     }
 
     public char Char_Addition(char Input_char, int Add_Number){
@@ -31,8 +45,11 @@ public class Character_Set {
             }
         }
         int Addition_Value = Input_Int + Add_Number;
-        if(Addition_Value > Character_Number){
+        if(Addition_Value >= Character_Number){
             Addition_Value -= 26;
+        }
+        else if(Addition_Value < 0){
+            Addition_Value += 26;
         }
 
 
