@@ -48,4 +48,34 @@ public class Cipher_Tests {
         String Output_String = new String(Output);
         assertEquals("atcqityeoeantakuelbfrdw",Output_String);
     }
+    @Test
+    public void MyszkowskiEncrypt(){
+
+        String Text = "attackquietlybeforedawn";
+        char[] Text_Array = Text.toCharArray();
+
+        Myszkowski test1 = new Myszkowski(Text_Array,"hello");
+
+        char[] output = test1.Encrypt();
+
+        String Output_String = new String(output);
+        assertEquals("tqlowaktfatauiybrenceed",Output_String);
+
+
+    }
+    @Test
+    public void MyszkowskiEncrypt2(){
+
+        String Text = "attackquietlybeforedawn";
+        char[] Text_Array = Text.toCharArray();
+
+        Myszkowski test1 = new Myszkowski(Text_Array,"dqrkbnfaddloue");
+
+        char[] output = test1.Encrypt();
+
+        String Output_String = new String(output);
+        assertEquals("uwceaieenbqaartkdltftoy",Output_String);
+
+
+    }
 }
