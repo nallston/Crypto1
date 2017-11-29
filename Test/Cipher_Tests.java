@@ -78,4 +78,89 @@ public class Cipher_Tests {
 
 
     }
+    @Test
+    public void RailFenceDecryptEven(){
+        String cipherText = "atcqityeoeatakuelbfrdw";
+        char[] textArray = cipherText.toCharArray();
+
+        Rail_Fence railFence = new Rail_Fence(textArray);
+
+        char[] outputArray = railFence.decrypt();
+        String outputString = new String(outputArray);
+        assertEquals("attackquietlybeforedaw", outputString);
+
+
+    }
+
+    @Test
+    public void RailFenceDecryptOdd(){
+        String cipherText = "atcqityeoeantakuelbfrdw";
+        char[] textArray = cipherText.toCharArray();
+
+        Rail_Fence railFence = new Rail_Fence(textArray);
+
+        char[] outputArray = railFence.decrypt();
+        String outputString = new String(outputArray);
+        assertEquals("attackquietlybeforedawn", outputString);
+
+
+    }
+
+    @Test
+    public void CheckerboardKeyTest(){
+        String cipherText = "atcqityeoeantakuelbfrdw";
+        char[] textArray = cipherText.toCharArray();
+        Straddling_Checkerboard sc = new Straddling_Checkerboard(textArray);
+
+        sc.setKey("brendan");
+        String output = "brendacfghijklmopqstuvwxyz";
+
+        assertEquals(output, sc.keyCompressor());
+
+    }
+
+    @Test
+    public void CheckerboardKeyTestTwo(){
+        String cipherText = "atcqityeoeantakuelbfrdw";
+        char[] textArray = cipherText.toCharArray();
+        Straddling_Checkerboard sc = new Straddling_Checkerboard(textArray);
+
+        sc.setKey("fuckbitchesgetmoney");
+        String output = "fuckbithesgmonyadjlpqrvwxz";
+
+        assertEquals(output, sc.keyCompressor());
+
+    }
+
+    @Test
+    public void CheckerboardFillTest(){
+        String cipherText = "atcqityeoeantakuelbfrdw";
+        char[] textArray = cipherText.toCharArray();
+        Straddling_Checkerboard sc = new Straddling_Checkerboard(textArray);
+
+        sc.setKey("brendan");
+        sc.firstNumber = 7;
+        sc.secondNumber = 5;
+        String output = "brendacfghijklmopqstuvwxyz";
+        assertEquals(output, sc.keyCompressor());
+
+        char[][] board = sc.fill();
+
+        for(int i = 0; i < 10; i++){
+            System.out.print(board[0][i] + " ");
+        }
+        System.out.println(" ");
+        for(int i = 0; i < 10; i++){
+            System.out.print(board[1][i] + " ");
+        }
+        System.out.println(" ");
+        for(int i = 0; i < 10; i++){
+            System.out.print(board[2][i] + " ");
+        }
+        System.out.println(" ");
+
+        System.out.println(output.length());
+
+    }
+
 }
