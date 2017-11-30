@@ -23,17 +23,21 @@ public class Straddling_Checkerboard {
         for(int i = 0; i<plaintextToEncrypt.length(); i++){
             for(int j = 0; j < 3; j++){
                 for(int q = 0; q < 10; q++){
-                    if(plaintextToEncrypt.charAt(i) == checkerboard[q][j]){
+                    if(plaintextToEncrypt.charAt(i) == checkerboard[j][q]){
                         if(j!=0){
-                            cipherText+= Integer.toString(j);
+                            if(j==1){
+                                cipherText+= Integer.toString(firstNumber);
+                            }
+                            else{
+                                cipherText+= Integer.toString(secondNumber);
+                            }
+
                         }
                         cipherText += Integer.toString(q);
                     }
                 }
             }
         }
-
-
         characters = cipherText.toCharArray();
         return characters;
     }

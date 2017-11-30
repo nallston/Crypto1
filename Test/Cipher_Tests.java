@@ -147,19 +147,40 @@ public class Cipher_Tests {
         char[][] board = sc.fill();
 
         for(int i = 0; i < 10; i++){
-            System.out.print(board[0][i] + " ");
+           //System.out.print(board[0][i] + " ");
         }
-        System.out.println(" ");
+        //System.out.println(" ");
         for(int i = 0; i < 10; i++){
-            System.out.print(board[1][i] + " ");
+            //System.out.print(board[1][i] + " ");
         }
-        System.out.println(" ");
+        //System.out.println(" ");
         for(int i = 0; i < 10; i++){
-            System.out.print(board[2][i] + " ");
+            //System.out.print(board[2][i] + " ");
         }
-        System.out.println(" ");
+        //System.out.println(" ");
 
-        System.out.println(output.length());
+        //System.out.println(output.length());
+
+    }
+
+    @Test
+    public void SCEncryptionTest(){
+        String cipherText = "712757577";
+        char[] textArray = cipherText.toCharArray();
+        Straddling_Checkerboard sc = new Straddling_Checkerboard(textArray);
+        char[] returnedCipherText;
+
+        sc.setKey("brendan");
+        sc.firstNumber = 7;
+        sc.secondNumber = 5;
+        String output = "brendacfghijklmopqstuvwxyz";
+        sc.plaintextToEncrypt = "hello";
+        returnedCipherText = sc.encrypt();
+
+        for(int i = 0; i<returnedCipherText.length; i++) {
+            assertEquals(textArray[i], returnedCipherText[i]);
+        }
+
 
     }
 
