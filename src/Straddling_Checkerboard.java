@@ -57,7 +57,7 @@ public class Straddling_Checkerboard {
         //first row
         int i = 0;
         int counter = 0;
-        System.out.println(key);
+        //System.out.println(key);
         while(i<10){
             if(i!=firstNumber && i!=secondNumber){
                 checkerboard[0][i] = key.charAt(counter);

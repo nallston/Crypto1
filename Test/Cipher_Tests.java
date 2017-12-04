@@ -184,4 +184,36 @@ public class Cipher_Tests {
 
     }
 
+    @Test
+    public void KeyShortenerTest(){
+
+        Key_Manipulator km = new Key_Manipulator();
+
+        String key = "boyohboy";
+        String finalKey = "boyh";
+
+        String resultKey = km.keyShortener(key);
+
+        assertEquals(finalKey,resultKey);
+
+    }
+
+    @Test
+    public void KeyAddAlphabetTest(){
+
+        Key_Manipulator km = new Key_Manipulator();
+
+        String key = "boyohboy";
+        String finalKey = "boyhacdefgijklmnpqrstuvwxz";
+
+        String resultKey = km.keyShortener(key);
+
+        String alphabet = "abcdefghijklmnopqrstuvwxyz";
+
+        String finalResult = km.keyAddAlphabet(resultKey,alphabet);
+
+        assertEquals(finalResult,finalKey);
+
+    }
+
 }
