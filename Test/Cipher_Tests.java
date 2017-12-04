@@ -5,6 +5,7 @@ import org.junit.Test;
 import org.junit.Before;
 
 import java.security.Key;
+import java.util.ArrayList;
 
 import static org.junit.Assert.assertEquals;
 public class Cipher_Tests {
@@ -304,4 +305,27 @@ public class Cipher_Tests {
         assertEquals(actual,returned);
     }
 
+    @Test
+    public void arrayListColumnOrderTest(){
+        Key_Manipulator km = new Key_Manipulator();
+
+        String key = "brendan";
+
+        ArrayList correctOrder = new ArrayList();
+        correctOrder.add(2);
+        correctOrder.add(7);
+        correctOrder.add(4);
+        correctOrder.add(5);
+        correctOrder.add(3);
+        correctOrder.add(1);
+        correctOrder.add(6);
+
+        ArrayList order = km.keyNumericalOrderer(key);
+
+
+        for(int i = 0; i < key.length(); i++){
+            assertEquals(correctOrder.get(i),order.get(i));
+        }
+
+    }
 }

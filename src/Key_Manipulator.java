@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 /**
  * Created by Brendan on 12/3/2017.
  */
@@ -88,6 +90,32 @@ public class Key_Manipulator {
         }
 
         return output;
+    }
+
+    public ArrayList keyNumericalOrderer(String key){
+
+        char[] splitKey = key.toCharArray();
+        Character_Set cs = new Character_Set(26);
+        ArrayList<Integer> order = new ArrayList();
+        for(int i = 0; i<key.length(); i++){
+            order.add(0);
+        }
+        int counter = 1;
+        for(int j=0; j<26; j++) {
+
+            for (int i = 0; i < key.length(); i++) {
+
+                if(splitKey[i]==cs.Characters_Array[j]){
+                    order.set(i,counter);
+                    counter++;
+                }
+
+            }
+
+        }
+
+        return order;
+
     }
 
     public int charValue(char x){
