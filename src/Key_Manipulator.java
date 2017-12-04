@@ -49,4 +49,65 @@ public class Key_Manipulator {
         return key;
     }
 
+    public String keyRepeater(String key, int size){
+
+        String returner = "";
+
+        int keyPointer = 0;
+        int counter = 0;
+
+        while(counter<size){
+            returner += key.charAt(keyPointer);
+
+            counter++;
+            keyPointer++;
+
+            if(keyPointer>=key.length()){
+                keyPointer = 0;
+            }
+
+        }
+
+        return returner;
+    }
+
+    public String keyAutokey(String key, String message){
+        String output = "";
+
+        int counter = 0;
+        while(counter < key.length()){
+
+            output += key.charAt(counter);
+            counter++;
+        }
+            counter = 0;
+        while(counter < (message.length()-key.length())){
+
+            output += message.charAt(counter);
+            counter++;
+        }
+
+        return output;
+    }
+
+    public int charValue(char x){
+        Character_Set cs = new Character_Set(26);
+
+        int i = 0;
+        while(i<26){
+            if(x == cs.Characters_Array[i]){
+                return i;
+            }
+            i++;
+        }
+
+        return -1;
+
+    }
+
+    public char intValue(int x){
+        Character_Set cs = new Character_Set(26);
+        return cs.Characters_Array[x];
+    }
+
 }

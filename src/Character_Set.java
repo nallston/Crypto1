@@ -11,7 +11,7 @@
 
 public class Character_Set {
     private int Character_Number;
-    private char[] Characters_Array;
+    char[] Characters_Array;
 
 
 

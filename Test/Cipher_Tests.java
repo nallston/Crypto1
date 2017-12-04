@@ -4,6 +4,8 @@ import org.junit.BeforeClass;
 import org.junit.Test;
 import org.junit.Before;
 
+import java.security.Key;
+
 import static org.junit.Assert.assertEquals;
 public class Cipher_Tests {
 
@@ -214,6 +216,92 @@ public class Cipher_Tests {
 
         assertEquals(finalResult,finalKey);
 
+    }
+
+    @Test
+    public void PlayfairKeyTest(){
+        Playfair p = new Playfair();
+        String charArray = "hey";
+        String key = "playfair";
+        String encryption = new String(p.encrypt(charArray.toCharArray(),key));
+
+        assertEquals("playfirbcdeghkmnoqstuvwxz",encryption);
+
+    }
+
+    @Test
+    public void KeyRepeaterTest(){
+        Key_Manipulator km = new Key_Manipulator();
+
+        int size = 10;
+        String key = "hey";
+        String finalOutput = "heyheyheyh";
+
+        assertEquals(finalOutput,km.keyRepeater(key,size));
+
+
+    }
+
+    @Test
+    public void charValueTest(){
+        Key_Manipulator km = new Key_Manipulator();
+
+        assertEquals(km.charValue('c'),2);
+
+        assertEquals(km.charValue('z'),25);
+
+        assertEquals(km.charValue('a'),0);
+
+    }
+
+    @Test
+    public void intValueTest(){
+        Key_Manipulator km = new Key_Manipulator();
+
+        assertEquals(km.intValue(2),'c');
+        assertEquals(km.intValue(25),'z');
+        assertEquals(km.intValue(0),'a');
+    }
+
+    @Test
+    public void vigenereAutokeyTest(){
+
+        Key_Manipulator km = new Key_Manipulator();
+
+        String msg = "hellothere";
+        String key = "boy";
+
+        String output = "boyhelloth";
+
+        assertEquals(output,km.keyAutokey(key,msg));
+
+    }
+
+    @Test
+    public void vigenereEncryptionTest(){
+        Vigenere v = new Vigenere();
+
+        String msg = "hello";
+        String key = "key";
+
+        String actual = "rijvs";
+        String returned = new String(v.encrypt(msg.toCharArray(), key));
+
+        assertEquals(actual,returned);
+
+    }
+
+    @Test
+    public void vigenereAutokeyEncryptionTest(){
+        Vigenere_Autokey va = new Vigenere_Autokey();
+
+        String msg = "helloworld";
+        String key = "key";
+
+        String actual = "rijsshzfhr";
+        String returned = new String(va.encrypt(msg.toCharArray(),key));
+
+        assertEquals(actual,returned);
     }
 
 }
