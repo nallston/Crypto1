@@ -4,6 +4,7 @@ import org.junit.BeforeClass;
 import org.junit.Test;
 import org.junit.Before;
 
+import java.io.FileReader;
 import java.security.Key;
 import java.util.ArrayList;
 
@@ -339,5 +340,13 @@ public class Cipher_Tests {
 
         String Output_String = new String(output);
         assertEquals("ciouagmsyekqwbhntzdjpvflrx",Output_String);
+    }
+    @Test
+    public void histogramAggregate(){
+        Histogram H = new Histogram();
+        String text = "boyohboyabcdefghijklmnopqrstuvwxyz";
+        char[] Text = text.toCharArray();
+        H.AggregateNumbers(Text);
+
     }
 }

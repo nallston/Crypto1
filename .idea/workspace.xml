@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dddbf357-65b3-488e-8383-3b189eb20d8f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Columnar.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Nihilist.java" />
+    <list default="true" id="dddbf357-65b3-488e-8383-3b189eb20d8f" name="Default" comment="Histogram and Columnar">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Filetostring.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Histogram.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Test/Cipher_Tests.java" afterPath="$PROJECT_DIR$/Test/Cipher_Tests.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Key_Manipulator.java" afterPath="$PROJECT_DIR$/src/Key_Manipulator.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,9 +24,51 @@
       <file leaf-file-name="Cipher_Tests.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Test/Cipher_Tests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="496">
-              <caret line="326" column="58" lean-forward="false" selection-start-line="326" selection-start-column="58" selection-end-line="326" selection-end-column="58" />
-              <folding />
+            <state relative-caret-position="619">
+              <caret line="346" column="57" lean-forward="false" selection-start-line="346" selection-start-column="57" selection-end-line="346" selection-end-column="57" />
+              <folding>
+                <element signature="method#MyszkowskiEncrypt#0;class#Cipher_Tests#0" expanded="false" />
+                <element signature="method#RailFenceDecryptEven#0;class#Cipher_Tests#0" expanded="false" />
+                <element signature="method#RailFenceDecryptOdd#0;class#Cipher_Tests#0" expanded="false" />
+                <element signature="method#CheckerboardKeyTest#0;class#Cipher_Tests#0" expanded="false" />
+                <element signature="method#CheckerboardKeyTestTwo#0;class#Cipher_Tests#0" expanded="false" />
+                <element signature="method#CheckerboardFillTest#0;class#Cipher_Tests#0" expanded="false" />
+                <element signature="method#SCEncryptionTest#0;class#Cipher_Tests#0" expanded="false" />
+                <element signature="method#KeyAddAlphabetTest#0;class#Cipher_Tests#0" expanded="false" />
+                <element signature="method#PlayfairKeyTest#0;class#Cipher_Tests#0" expanded="false" />
+                <element signature="method#KeyRepeaterTest#0;class#Cipher_Tests#0" expanded="false" />
+                <element signature="method#charValueTest#0;class#Cipher_Tests#0" expanded="false" />
+                <element signature="method#intValueTest#0;class#Cipher_Tests#0" expanded="false" />
+                <element signature="method#vigenereAutokeyTest#0;class#Cipher_Tests#0" expanded="false" />
+                <element signature="method#vigenereEncryptionTest#0;class#Cipher_Tests#0" expanded="false" />
+                <element signature="method#vigenereAutokeyEncryptionTest#0;class#Cipher_Tests#0" expanded="false" />
+                <element signature="method#arrayListColumnOrderTest#0;class#Cipher_Tests#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Histogram.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Histogram.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Filetostring.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Filetostring.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="25" lean-forward="false" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -35,38 +76,8 @@
       <file leaf-file-name="Character_Set.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Character_Set.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="28" lean-forward="false" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Playfair.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Playfair.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="22" column="9" lean-forward="true" selection-start-line="13" selection-start-column="8" selection-end-line="22" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Vigenere.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Vigenere.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="32" column="36" lean-forward="false" selection-start-line="11" selection-start-column="8" selection-end-line="32" selection-end-column="36" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Vigenere_Autokey.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Vigenere_Autokey.java">
-          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="340">
-              <caret line="20" column="24" lean-forward="false" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
+              <caret line="20" column="52" lean-forward="false" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="52" />
               <folding />
             </state>
           </provider>
@@ -75,33 +86,28 @@
       <file leaf-file-name="Columnar.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Columnar.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="445">
-              <caret line="48" column="0" lean-forward="true" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#411#430#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="-163">
+              <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Nihilist.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Nihilist.java">
+      <file leaf-file-name="Vigenere.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Vigenere.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="36" column="21" lean-forward="true" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="21" />
-              <folding>
-                <element signature="e#270#279#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="510">
+              <caret line="30" column="9" lean-forward="true" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Myszkowski.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Myszkowski.java">
+      <file leaf-file-name="Vigenere_Autokey.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Vigenere_Autokey.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="37" lean-forward="false" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
+            <state relative-caret-position="663">
+              <caret line="39" column="0" lean-forward="true" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -110,8 +116,8 @@
       <file leaf-file-name="Key_Manipulator.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Key_Manipulator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="382">
-              <caret line="101" column="9" lean-forward="true" selection-start-line="101" selection-start-column="9" selection-end-line="101" selection-end-column="9" />
+            <state relative-caret-position="187">
+              <caret line="11" column="42" lean-forward="false" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
               <folding>
                 <element signature="method#keyShortener#0;class#Key_Manipulator#0" expanded="false" />
                 <element signature="method#keyAddAlphabet#0;class#Key_Manipulator#0" expanded="false" />
@@ -145,24 +151,28 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/Rail_Fence.java" />
-        <option value="$PROJECT_DIR$/src/Myszkowski.java" />
         <option value="$PROJECT_DIR$/src/Straddling_Checkerboard.java" />
         <option value="$PROJECT_DIR$/src/Playfair.java" />
         <option value="$PROJECT_DIR$/src/Character_Set.java" />
         <option value="$PROJECT_DIR$/src/Vigenere.java" />
         <option value="$PROJECT_DIR$/src/Vigenere_Autokey.java" />
-        <option value="$PROJECT_DIR$/Test/Cipher_Tests.java" />
         <option value="$PROJECT_DIR$/src/Key_Manipulator.java" />
-        <option value="$PROJECT_DIR$/src/Columnar.java" />
         <option value="$PROJECT_DIR$/src/Nihilist.java" />
+        <option value="$PROJECT_DIR$/src/Myszkowski.java" />
+        <option value="$PROJECT_DIR$/src/Columnar.java" />
+        <option value="$PROJECT_DIR$/Text.txt" />
+        <option value="$PROJECT_DIR$/src/Filereader.java" />
+        <option value="$PROJECT_DIR$/src/Filetostring.java" />
+        <option value="$PROJECT_DIR$/Test/Cipher_Tests.java" />
+        <option value="$PROJECT_DIR$/src/Histogram.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="width" value="2576" />
+    <option name="height" value="1416" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -179,7 +189,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -222,14 +231,21 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="JUnit.Cipher_Tests">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Crypto1\Test" />
+      <recent name="C:\Crypto1" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.Cipher_Tests.histogramAggregate">
     <configuration default="false" name="Cipher_Tests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="Cryptology Project" />
@@ -239,6 +255,90 @@
       <option name="MAIN_CLASS_NAME" value="Cipher_Tests" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="Cipher_Tests.MyszkowskiEncrypt" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="Cryptology Project" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Cipher_Tests" />
+      <option name="METHOD_NAME" value="MyszkowskiEncrypt" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="Cipher_Tests.columnarTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="Cryptology Project" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Cipher_Tests" />
+      <option name="METHOD_NAME" value="columnarTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="Cipher_Tests.histogramAggregate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="Cryptology Project" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Cipher_Tests" />
+      <option name="METHOD_NAME" value="histogramAggregate" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="Cipher_Tests.KeyShortenerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="Cryptology Project" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Cipher_Tests" />
+      <option name="METHOD_NAME" value="KeyShortenerTest" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -327,25 +427,6 @@
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="myFilePath" />
-      <option name="GLUE" />
-      <option name="myNameFilter" />
-      <option name="myGeneratedName" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
@@ -474,12 +555,20 @@
       <listeners />
       <method />
     </configuration>
-    <list size="1">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="JUnit.Cipher_Tests" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.Cipher_Tests.MyszkowskiEncrypt" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.Cipher_Tests.columnarTest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.Cipher_Tests.histogramAggregate" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.Cipher_Tests.KeyShortenerTest" />
     </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.Cipher_Tests" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.Cipher_Tests.histogramAggregate" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.Cipher_Tests.KeyShortenerTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.Cipher_Tests" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.Cipher_Tests.columnarTest" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.Cipher_Tests.MyszkowskiEncrypt" />
       </list>
     </recent_temporary>
   </component>
@@ -541,63 +630,68 @@
       <option name="project" value="LOCAL" />
       <updated>1512356865095</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="KeyManipulator has new features, Vigenere Encryption works, Vigenere Autokey encryption works, started Playfair class, can currently make the square, just need to finish up started logic of the actual encryption.">
+      <created>1512440766871</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1512440766871</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Cipher_Tests - 2017.12.03 at 21h 41m 47s.xml">
-      <configuration name="Cipher_Tests" configurationId="JUnit" />
+    <history-entry file="Cipher_Tests_KeyShortenerTest - 2017.12.04 at 22h 14m 29s.xml">
+      <configuration name="Cipher_Tests.KeyShortenerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Cipher_Tests - 2017.12.03 at 21h 41m 56s.xml">
-      <configuration name="Cipher_Tests" configurationId="JUnit" />
+    <history-entry file="Cipher_Tests_histogramAggregate - 2017.12.04 at 22h 15m 06s.xml">
+      <configuration name="Cipher_Tests.histogramAggregate" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Cipher_Tests - 2017.12.03 at 21h 45m 29s.xml">
-      <configuration name="Cipher_Tests" configurationId="JUnit" />
+    <history-entry file="Cipher_Tests_histogramAggregate - 2017.12.04 at 22h 16m 12s.xml">
+      <configuration name="Cipher_Tests.histogramAggregate" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Cipher_Tests - 2017.12.03 at 21h 55m 19s.xml">
-      <configuration name="Cipher_Tests" configurationId="JUnit" />
+    <history-entry file="Cipher_Tests_histogramAggregate - 2017.12.04 at 22h 17m 31s.xml">
+      <configuration name="Cipher_Tests.histogramAggregate" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Cipher_Tests - 2017.12.03 at 21h 55m 52s.xml">
-      <configuration name="Cipher_Tests" configurationId="JUnit" />
+    <history-entry file="Cipher_Tests_histogramAggregate - 2017.12.04 at 22h 17m 56s.xml">
+      <configuration name="Cipher_Tests.histogramAggregate" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Cipher_Tests - 2017.12.03 at 22h 01m 02s.xml">
-      <configuration name="Cipher_Tests" configurationId="JUnit" />
+    <history-entry file="Cipher_Tests_histogramAggregate - 2017.12.04 at 22h 18m 48s.xml">
+      <configuration name="Cipher_Tests.histogramAggregate" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Cipher_Tests - 2017.12.03 at 22h 06m 33s.xml">
-      <configuration name="Cipher_Tests" configurationId="JUnit" />
+    <history-entry file="Cipher_Tests_histogramAggregate - 2017.12.04 at 22h 20m 13s.xml">
+      <configuration name="Cipher_Tests.histogramAggregate" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Cipher_Tests - 2017.12.04 at 13h 39m 51s.xml">
-      <configuration name="Cipher_Tests" configurationId="JUnit" />
+    <history-entry file="Cipher_Tests_histogramAggregate - 2017.12.04 at 22h 22m 21s.xml">
+      <configuration name="Cipher_Tests.histogramAggregate" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Cipher_Tests - 2017.12.04 at 14h 09m 35s.xml">
-      <configuration name="Cipher_Tests" configurationId="JUnit" />
+    <history-entry file="Cipher_Tests_histogramAggregate - 2017.12.04 at 22h 22m 27s.xml">
+      <configuration name="Cipher_Tests.histogramAggregate" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Cipher_Tests - 2017.12.04 at 16h 18m 09s.xml">
-      <configuration name="Cipher_Tests" configurationId="JUnit" />
+    <history-entry file="Cipher_Tests_histogramAggregate - 2017.12.04 at 22h 23m 20s.xml">
+      <configuration name="Cipher_Tests.histogramAggregate" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980973" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924962" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run Dashboard" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32875264" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3284839" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Memory View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -608,6 +702,8 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Memory View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run Dashboard" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -657,7 +753,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="9" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -666,40 +762,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Key_Manipulator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="89" column="22" lean-forward="false" selection-start-line="89" selection-start-column="22" selection-end-line="89" selection-end-column="22" />
-          <folding>
-            <element signature="method#keyShortener#0;class#Key_Manipulator#0" expanded="false" />
-            <element signature="method#keyAddAlphabet#0;class#Key_Manipulator#0" expanded="false" />
-            <element signature="method#keyRepeater#0;class#Key_Manipulator#0" expanded="false" />
-            <element signature="method#keyAutokey#0;class#Key_Manipulator#0" expanded="false" />
-            <element signature="method#charValue#0;class#Key_Manipulator#0" expanded="false" />
-            <element signature="method#intValue#0;class#Key_Manipulator#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Columnar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="8" lean-forward="true" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#411#430#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Test/Cipher_Tests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5049">
-          <caret line="303" column="36" lean-forward="false" selection-start-line="303" selection-start-column="36" selection-end-line="303" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Character_Set.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -751,7 +813,24 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3077">
           <caret line="185" column="0" lean-forward="false" selection-start-line="185" selection-start-column="0" selection-end-line="185" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="method#MyszkowskiEncrypt#0;class#Cipher_Tests#0" expanded="false" />
+            <element signature="method#RailFenceDecryptEven#0;class#Cipher_Tests#0" expanded="false" />
+            <element signature="method#RailFenceDecryptOdd#0;class#Cipher_Tests#0" expanded="false" />
+            <element signature="method#CheckerboardKeyTest#0;class#Cipher_Tests#0" expanded="false" />
+            <element signature="method#CheckerboardKeyTestTwo#0;class#Cipher_Tests#0" expanded="false" />
+            <element signature="method#CheckerboardFillTest#0;class#Cipher_Tests#0" expanded="false" />
+            <element signature="method#SCEncryptionTest#0;class#Cipher_Tests#0" expanded="false" />
+            <element signature="method#KeyAddAlphabetTest#0;class#Cipher_Tests#0" expanded="false" />
+            <element signature="method#PlayfairKeyTest#0;class#Cipher_Tests#0" expanded="false" />
+            <element signature="method#KeyRepeaterTest#0;class#Cipher_Tests#0" expanded="false" />
+            <element signature="method#charValueTest#0;class#Cipher_Tests#0" expanded="false" />
+            <element signature="method#intValueTest#0;class#Cipher_Tests#0" expanded="false" />
+            <element signature="method#vigenereAutokeyTest#0;class#Cipher_Tests#0" expanded="false" />
+            <element signature="method#vigenereEncryptionTest#0;class#Cipher_Tests#0" expanded="false" />
+            <element signature="method#vigenereAutokeyEncryptionTest#0;class#Cipher_Tests#0" expanded="false" />
+            <element signature="method#arrayListColumnOrderTest#0;class#Cipher_Tests#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -810,7 +889,24 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3077">
           <caret line="185" column="0" lean-forward="false" selection-start-line="185" selection-start-column="0" selection-end-line="185" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="method#MyszkowskiEncrypt#0;class#Cipher_Tests#0" expanded="false" />
+            <element signature="method#RailFenceDecryptEven#0;class#Cipher_Tests#0" expanded="false" />
+            <element signature="method#RailFenceDecryptOdd#0;class#Cipher_Tests#0" expanded="false" />
+            <element signature="method#CheckerboardKeyTest#0;class#Cipher_Tests#0" expanded="false" />
+            <element signature="method#CheckerboardKeyTestTwo#0;class#Cipher_Tests#0" expanded="false" />
+            <element signature="method#CheckerboardFillTest#0;class#Cipher_Tests#0" expanded="false" />
+            <element signature="method#SCEncryptionTest#0;class#Cipher_Tests#0" expanded="false" />
+            <element signature="method#KeyAddAlphabetTest#0;class#Cipher_Tests#0" expanded="false" />
+            <element signature="method#PlayfairKeyTest#0;class#Cipher_Tests#0" expanded="false" />
+            <element signature="method#KeyRepeaterTest#0;class#Cipher_Tests#0" expanded="false" />
+            <element signature="method#charValueTest#0;class#Cipher_Tests#0" expanded="false" />
+            <element signature="method#intValueTest#0;class#Cipher_Tests#0" expanded="false" />
+            <element signature="method#vigenereAutokeyTest#0;class#Cipher_Tests#0" expanded="false" />
+            <element signature="method#vigenereEncryptionTest#0;class#Cipher_Tests#0" expanded="false" />
+            <element signature="method#vigenereAutokeyEncryptionTest#0;class#Cipher_Tests#0" expanded="false" />
+            <element signature="method#arrayListColumnOrderTest#0;class#Cipher_Tests#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -893,7 +989,24 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2720">
           <caret line="164" column="0" lean-forward="true" selection-start-line="164" selection-start-column="0" selection-end-line="164" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="method#MyszkowskiEncrypt#0;class#Cipher_Tests#0" expanded="false" />
+            <element signature="method#RailFenceDecryptEven#0;class#Cipher_Tests#0" expanded="false" />
+            <element signature="method#RailFenceDecryptOdd#0;class#Cipher_Tests#0" expanded="false" />
+            <element signature="method#CheckerboardKeyTest#0;class#Cipher_Tests#0" expanded="false" />
+            <element signature="method#CheckerboardKeyTestTwo#0;class#Cipher_Tests#0" expanded="false" />
+            <element signature="method#CheckerboardFillTest#0;class#Cipher_Tests#0" expanded="false" />
+            <element signature="method#SCEncryptionTest#0;class#Cipher_Tests#0" expanded="false" />
+            <element signature="method#KeyAddAlphabetTest#0;class#Cipher_Tests#0" expanded="false" />
+            <element signature="method#PlayfairKeyTest#0;class#Cipher_Tests#0" expanded="false" />
+            <element signature="method#KeyRepeaterTest#0;class#Cipher_Tests#0" expanded="false" />
+            <element signature="method#charValueTest#0;class#Cipher_Tests#0" expanded="false" />
+            <element signature="method#intValueTest#0;class#Cipher_Tests#0" expanded="false" />
+            <element signature="method#vigenereAutokeyTest#0;class#Cipher_Tests#0" expanded="false" />
+            <element signature="method#vigenereEncryptionTest#0;class#Cipher_Tests#0" expanded="false" />
+            <element signature="method#vigenereAutokeyEncryptionTest#0;class#Cipher_Tests#0" expanded="false" />
+            <element signature="method#arrayListColumnOrderTest#0;class#Cipher_Tests#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -952,7 +1065,24 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="method#MyszkowskiEncrypt#0;class#Cipher_Tests#0" expanded="false" />
+            <element signature="method#RailFenceDecryptEven#0;class#Cipher_Tests#0" expanded="false" />
+            <element signature="method#RailFenceDecryptOdd#0;class#Cipher_Tests#0" expanded="false" />
+            <element signature="method#CheckerboardKeyTest#0;class#Cipher_Tests#0" expanded="false" />
+            <element signature="method#CheckerboardKeyTestTwo#0;class#Cipher_Tests#0" expanded="false" />
+            <element signature="method#CheckerboardFillTest#0;class#Cipher_Tests#0" expanded="false" />
+            <element signature="method#SCEncryptionTest#0;class#Cipher_Tests#0" expanded="false" />
+            <element signature="method#KeyAddAlphabetTest#0;class#Cipher_Tests#0" expanded="false" />
+            <element signature="method#PlayfairKeyTest#0;class#Cipher_Tests#0" expanded="false" />
+            <element signature="method#KeyRepeaterTest#0;class#Cipher_Tests#0" expanded="false" />
+            <element signature="method#charValueTest#0;class#Cipher_Tests#0" expanded="false" />
+            <element signature="method#intValueTest#0;class#Cipher_Tests#0" expanded="false" />
+            <element signature="method#vigenereAutokeyTest#0;class#Cipher_Tests#0" expanded="false" />
+            <element signature="method#vigenereEncryptionTest#0;class#Cipher_Tests#0" expanded="false" />
+            <element signature="method#vigenereAutokeyEncryptionTest#0;class#Cipher_Tests#0" expanded="false" />
+            <element signature="method#arrayListColumnOrderTest#0;class#Cipher_Tests#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -991,7 +1121,24 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="method#MyszkowskiEncrypt#0;class#Cipher_Tests#0" expanded="false" />
+            <element signature="method#RailFenceDecryptEven#0;class#Cipher_Tests#0" expanded="false" />
+            <element signature="method#RailFenceDecryptOdd#0;class#Cipher_Tests#0" expanded="false" />
+            <element signature="method#CheckerboardKeyTest#0;class#Cipher_Tests#0" expanded="false" />
+            <element signature="method#CheckerboardKeyTestTwo#0;class#Cipher_Tests#0" expanded="false" />
+            <element signature="method#CheckerboardFillTest#0;class#Cipher_Tests#0" expanded="false" />
+            <element signature="method#SCEncryptionTest#0;class#Cipher_Tests#0" expanded="false" />
+            <element signature="method#KeyAddAlphabetTest#0;class#Cipher_Tests#0" expanded="false" />
+            <element signature="method#PlayfairKeyTest#0;class#Cipher_Tests#0" expanded="false" />
+            <element signature="method#KeyRepeaterTest#0;class#Cipher_Tests#0" expanded="false" />
+            <element signature="method#charValueTest#0;class#Cipher_Tests#0" expanded="false" />
+            <element signature="method#intValueTest#0;class#Cipher_Tests#0" expanded="false" />
+            <element signature="method#vigenereAutokeyTest#0;class#Cipher_Tests#0" expanded="false" />
+            <element signature="method#vigenereEncryptionTest#0;class#Cipher_Tests#0" expanded="false" />
+            <element signature="method#vigenereAutokeyEncryptionTest#0;class#Cipher_Tests#0" expanded="false" />
+            <element signature="method#arrayListColumnOrderTest#0;class#Cipher_Tests#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -999,6 +1146,51 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
           <caret line="24" column="50" lean-forward="false" selection-start-line="24" selection-start-column="50" selection-end-line="24" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Nihilist.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="36" column="21" lean-forward="false" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="21" />
+          <folding>
+            <element signature="e#270#279#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Playfair.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="22" column="9" lean-forward="false" selection-start-line="13" selection-start-column="8" selection-end-line="22" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Straddling_Checkerboard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="88" column="55" lean-forward="true" selection-start-line="88" selection-start-column="8" selection-end-line="88" selection-end-column="55" />
+          <folding>
+            <element signature="method#encrypt#0;class#Straddling_Checkerboard#0" expanded="false" />
+            <element signature="method#decrypt#0;class#Straddling_Checkerboard#0" expanded="false" />
+            <element signature="method#fill#0;class#Straddling_Checkerboard#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Myszkowski.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="755">
+          <caret line="69" column="5" lean-forward="false" selection-start-line="10" selection-start-column="4" selection-end-line="69" selection-end-column="5" />
           <folding />
         </state>
       </provider>
@@ -1011,53 +1203,52 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
+    <entry file="file://$PROJECT_DIR$/Test/Text.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Straddling_Checkerboard.java">
+    <entry file="file://$PROJECT_DIR$/src/Filetostring.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="88" column="55" lean-forward="true" selection-start-line="88" selection-start-column="8" selection-end-line="88" selection-end-column="55" />
+        <state relative-caret-position="119">
+          <caret line="7" column="25" lean-forward="false" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
           <folding>
-            <element signature="method#encrypt#0;class#Straddling_Checkerboard#0" expanded="false" />
-            <element signature="method#decrypt#0;class#Straddling_Checkerboard#0" expanded="false" />
-            <element signature="method#fill#0;class#Straddling_Checkerboard#0" expanded="false" />
+            <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Columnar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-163">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Vigenere.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="32" column="36" lean-forward="false" selection-start-line="11" selection-start-column="8" selection-end-line="32" selection-end-column="36" />
+        <state relative-caret-position="510">
+          <caret line="30" column="9" lean-forward="true" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Vigenere_Autokey.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="24" lean-forward="false" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Character_Set.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="28" lean-forward="false" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
+        <state relative-caret-position="663">
+          <caret line="39" column="0" lean-forward="true" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Key_Manipulator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="382">
-          <caret line="101" column="9" lean-forward="true" selection-start-line="101" selection-start-column="9" selection-end-line="101" selection-end-column="9" />
+        <state relative-caret-position="187">
+          <caret line="11" column="42" lean-forward="false" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
           <folding>
             <element signature="method#keyShortener#0;class#Key_Manipulator#0" expanded="false" />
             <element signature="method#keyAddAlphabet#0;class#Key_Manipulator#0" expanded="false" />
@@ -1069,47 +1260,46 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Character_Set.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="52" lean-forward="false" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Test/Cipher_Tests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="496">
-          <caret line="326" column="58" lean-forward="false" selection-start-line="326" selection-start-column="58" selection-end-line="326" selection-end-column="58" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Myszkowski.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="37" lean-forward="false" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Playfair.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="22" column="9" lean-forward="true" selection-start-line="13" selection-start-column="8" selection-end-line="22" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Columnar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="445">
-          <caret line="48" column="0" lean-forward="true" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+        <state relative-caret-position="619">
+          <caret line="346" column="57" lean-forward="false" selection-start-line="346" selection-start-column="57" selection-end-line="346" selection-end-column="57" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#411#430#0" expanded="true" />
+            <element signature="method#MyszkowskiEncrypt#0;class#Cipher_Tests#0" expanded="false" />
+            <element signature="method#RailFenceDecryptEven#0;class#Cipher_Tests#0" expanded="false" />
+            <element signature="method#RailFenceDecryptOdd#0;class#Cipher_Tests#0" expanded="false" />
+            <element signature="method#CheckerboardKeyTest#0;class#Cipher_Tests#0" expanded="false" />
+            <element signature="method#CheckerboardKeyTestTwo#0;class#Cipher_Tests#0" expanded="false" />
+            <element signature="method#CheckerboardFillTest#0;class#Cipher_Tests#0" expanded="false" />
+            <element signature="method#SCEncryptionTest#0;class#Cipher_Tests#0" expanded="false" />
+            <element signature="method#KeyAddAlphabetTest#0;class#Cipher_Tests#0" expanded="false" />
+            <element signature="method#PlayfairKeyTest#0;class#Cipher_Tests#0" expanded="false" />
+            <element signature="method#KeyRepeaterTest#0;class#Cipher_Tests#0" expanded="false" />
+            <element signature="method#charValueTest#0;class#Cipher_Tests#0" expanded="false" />
+            <element signature="method#intValueTest#0;class#Cipher_Tests#0" expanded="false" />
+            <element signature="method#vigenereAutokeyTest#0;class#Cipher_Tests#0" expanded="false" />
+            <element signature="method#vigenereEncryptionTest#0;class#Cipher_Tests#0" expanded="false" />
+            <element signature="method#vigenereAutokeyEncryptionTest#0;class#Cipher_Tests#0" expanded="false" />
+            <element signature="method#arrayListColumnOrderTest#0;class#Cipher_Tests#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Nihilist.java">
+    <entry file="file://$PROJECT_DIR$/src/Histogram.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="36" column="21" lean-forward="true" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="21" />
+        <state relative-caret-position="238">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding>
-            <element signature="e#270#279#0" expanded="true" />
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
