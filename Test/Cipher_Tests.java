@@ -57,9 +57,9 @@ public class Cipher_Tests {
         String Text = "attackquietlybeforedawn";
         char[] Text_Array = Text.toCharArray();
 
-        Myszkowski test1 = new Myszkowski(Text_Array,"hello");
+        Myszkowski test1 = new Myszkowski();
 
-        char[] output = test1.Encrypt();
+        char[] output = test1.Encrypt(Text_Array,"hello");
 
         String Output_String = new String(output);
         assertEquals("tqlowaktfatauiybrenceed",Output_String);
@@ -72,9 +72,9 @@ public class Cipher_Tests {
         String Text = "attackquietlybeforedawn";
         char[] Text_Array = Text.toCharArray();
 
-        Myszkowski test1 = new Myszkowski(Text_Array,"dqrkbnfaddloue");
+        Myszkowski test1 = new Myszkowski();
 
-        char[] output = test1.Encrypt();
+        char[] output = test1.Encrypt(Text_Array,"dqrkbnfaddloue");
 
         String Output_String = new String(output);
         assertEquals("uwceaieenbqaartkdltftoy",Output_String);
@@ -327,5 +327,17 @@ public class Cipher_Tests {
             assertEquals(correctOrder.get(i),order.get(i));
         }
 
+    }
+    @Test
+    public void columnarTest(){
+        Columnar C = new Columnar();
+        String Text = "abcdefghijklmnopqrstuvwxyz";
+        char[] Text_Array = Text.toCharArray();
+
+
+        char[] output = C.Encrypt(Text_Array,"freshs");
+
+        String Output_String = new String(output);
+        assertEquals("ciouagmsyekqwbhntzdjpvflrx",Output_String);
     }
 }
