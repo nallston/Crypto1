@@ -40,7 +40,6 @@ public class Cipher_Tests {
         assertEquals("attackquietlybeforedawn",Output_String);
     }
 
-
     @Test
     public void RailFenceEncrypt(){
         String Text = "attackquietlybeforedawn";
@@ -344,8 +343,29 @@ public class Cipher_Tests {
     @Test
     public void histogramAggregate(){
         Histogram H = new Histogram();
-        String text = "boyohboyabcdefghijklmnopqrstuvwxyz";
-        char[] Text = text.toCharArray();
+        String text = "the article’s main idea is to try and show the readers why the new proposed healthcare bill is worse than what we currently have. when comparing the two bills she first looks at the ideology of the two party’s positions on the issue. the democrats goal of healthcare as in the a.c.a. bill was to expand access and mandate health benefits to all citizens. while in contrast the republican bill focuses on lowering the cost of healthcare. the author then goes into detail about how having healthcare for everyone, even if it is more expensive is more important than having cheaper healthcare, that not everyone can have." +
+                "now moving on to the anthropology terms, framing process is the first i will talk about. framing process is “the creation of shared meanings and definitions that motivate and justify collective action by social movements” (guest 563). with this article being an opinion piece making the reader connect with the author’s train of thought is critical. this anthropology term perfectly shows a technique that the author uses to resonate with the reader. for example, when she talks about the cost/benefit ratio with healthcare. making the claim that even if healthcare is more expensive, having it for everyone is worth the cost because essentially the price of life is invaluable. this is something everyone can relate to, where you have lost a loved one and what you would pay to bring them back. this idea is a cornerstone of the article. at the end she also includes a few paragraphs about how the proper way to reduce healthcare cost is, and how it isn’t how the proposed bill attempts to solve it. so, in the end she used a strategy to make the cost irrelevant and then in the end showed how the cost, if the reader wasn’t wholly convinced, wouldn’t be that impactful." +
+                "while this next term might not be something you would think is prevalent in this article i believe it is, social movement. social movement is “collective group actions in response to uneven development, inequality, and injustice that seek to build institutional networks to transform ";
+
+        Key_Manipulator km = new Key_Manipulator();
+       String text2 = km.keyConformer(text);
+        char[] Text = text2.toCharArray();
+        H.AggregateNumbers(Text);
+
+    }
+    @Test
+    public void histogramMyszkowskiAggregate(){
+        Histogram H = new Histogram();
+        String text = "the article’s main idea is to try and show the readers why the new proposed healthcare bill is worse than what we currently have. when comparing the two bills she first looks at the ideology of the two party’s positions on the issue. the democrats goal of healthcare as in the a.c.a. bill was to expand access and mandate health benefits to all citizens. while in contrast the republican bill focuses on lowering the cost of healthcare. the author then goes into detail about how having healthcare for everyone, even if it is more expensive is more important than having cheaper healthcare, that not everyone can have." +
+                "now moving on to the anthropology terms, framing process is the first i will talk about. framing process is “the creation of shared meanings and definitions that motivate and justify collective action by social movements” (guest 563). with this article being an opinion piece making the reader connect with the author’s train of thought is critical. this anthropology term perfectly shows a technique that the author uses to resonate with the reader. for example, when she talks about the cost/benefit ratio with healthcare. making the claim that even if healthcare is more expensive, having it for everyone is worth the cost because essentially the price of life is invaluable. this is something everyone can relate to, where you have lost a loved one and what you would pay to bring them back. this idea is a cornerstone of the article. at the end she also includes a few paragraphs about how the proper way to reduce healthcare cost is, and how it isn’t how the proposed bill attempts to solve it. so, in the end she used a strategy to make the cost irrelevant and then in the end showed how the cost, if the reader wasn’t wholly convinced, wouldn’t be that impactful." +
+                "while this next term might not be something you would think is prevalent in this article i believe it is, social movement. social movement is “collective group actions in response to uneven development, inequality, and injustice that seek to build institutional networks to transform ";
+
+        Key_Manipulator km = new Key_Manipulator();
+        String text2 = km.keyConformer(text);
+        char[] Text = text2.toCharArray();
+        Vigenere v = new Vigenere();
+        Text = v.encrypt(Text,"dqrkbnfaddloue" );
+
         H.AggregateNumbers(Text);
 
     }
