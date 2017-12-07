@@ -353,5 +353,26 @@ public class Cipher_Tests {
         Histogram h = new Histogram();
         h.AggregateNumbers(str.toCharArray());
     }
+    @Test
+    public void BigramTest() throws IOException {
+        Filetostring fts = new Filetostring();
+        Key_Manipulator ky = new Key_Manipulator();
+        String returned = fts.Filetostring("src/example.txt");
+        returned = ky.keyConformer(returned);
+
+        Histogram h = new Histogram();
+        h.Bigram(returned.toCharArray());
+    }
+    @Test
+    public void BigramVTest() throws IOException {
+        Filetostring fts = new Filetostring();
+        Key_Manipulator ky = new Key_Manipulator();
+        String returned = fts.Filetostring("src/example.txt");
+        returned = ky.keyConformer(returned);
+        Vigenere v = new Vigenere();
+        String str = new String(v.encrypt(returned.toCharArray(),"key"));
+        Histogram h = new Histogram();
+        h.Bigram(str.toCharArray());
+    }
 
 }

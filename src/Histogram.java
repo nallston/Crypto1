@@ -79,5 +79,85 @@ public class Histogram {
         return;
     }
 
+    public void Bigram(char[] Text){
+        Key_Manipulator keyer = new Key_Manipulator();
+        String StringText = new String(Text);
+
+
+
+        int firstchar =97;
+        int secondchar=97;
+
+        String[] Examples = new String[676];
+
+        for(int i =0; i< 676; i++){
+            if(secondchar == 123){
+                secondchar -=26;
+                firstchar++;
+            }
+
+            Examples[i]= Character.toString((char) firstchar) + Character.toString((char) secondchar);
+            secondchar++;
+        }
+        int[] count = new int[676];
+        int p =0;
+        while(p < StringText.length()-1){
+
+            String temp = StringText.substring(p,p+2);
+
+            for(int i=0;i<Examples.length;i++){
+
+                if(Examples[i].equals(temp)){
+                    count[i]++;
+                    break;
+                }
+            }
+
+
+
+            p++;
+        }
+        int size = 10;
+        for(int h =0; h < 676; h++){
+            if(h % size == 0){
+                System.out.println();
+            }
+            System.out.print(Examples[h] + ":  " + count[h] + "    ");
+        }
+
+
+        double avg = 0;
+        int Max = count[0];
+        int Min = count[0];
+        for(p =0; p<Examples.length; p++){
+            avg+=count[p];
+            Max = max(Max,count[p]);
+            Min = min(Min,count[p]);
+        }
+        avg = avg/Examples.length;
+
+        double standdev =0;
+        for(int o =0; o<Examples.length; o++){
+            double iteration = count[o];
+            iteration = ((iteration - avg)*(iteration-avg));
+            standdev +=iteration;
+        }
+        standdev = Math.sqrt((standdev/(Examples.length-1)));
+
+        System.out.println("\nAverage per is: " + (avg));
+        System.out.println("Range goes from: " + Min + " to " + Max);
+        System.out.println("Standard Deviation is: " + standdev);
+
+
+
+
+
+        return;
+
+
+
+
+    }
+
 
 }
