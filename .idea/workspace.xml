@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="dddbf357-65b3-488e-8383-3b189eb20d8f" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Test/Cipher_Tests.java" afterPath="$PROJECT_DIR$/Test/Cipher_Tests.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Histogram.java" afterPath="$PROJECT_DIR$/src/Histogram.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Key_Manipulator.java" afterPath="$PROJECT_DIR$/src/Key_Manipulator.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,7 +21,7 @@
       <file leaf-file-name="Cipher_Tests.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Test/Cipher_Tests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-942">
+            <state relative-caret-position="163">
               <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
               <folding>
                 <element signature="method#TransitionEncrypt#0;class#Cipher_Tests#0" expanded="false" />
@@ -45,6 +42,7 @@
                 <element signature="method#charValueTest#0;class#Cipher_Tests#0" expanded="false" />
                 <element signature="method#intValueTest#0;class#Cipher_Tests#0" expanded="false" />
                 <element signature="method#vigenereAutokeyTest#0;class#Cipher_Tests#0" expanded="false" />
+                <element signature="method#vigenereEncryptionTest#0;class#Cipher_Tests#0" expanded="false" />
                 <element signature="method#vigenereAutokeyEncryptionTest#0;class#Cipher_Tests#0" expanded="false" />
                 <element signature="method#arrayListColumnOrderTest#0;class#Cipher_Tests#0" expanded="false" />
                 <element signature="method#columnarTest#0;class#Cipher_Tests#0" expanded="false" />
@@ -53,15 +51,67 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Histogram.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Histogram.java">
+      <file leaf-file-name="Nihilist.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Nihilist.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="612">
-              <caret line="69" column="40" lean-forward="true" selection-start-line="69" selection-start-column="40" selection-end-line="69" selection-end-column="40" />
+              <caret line="36" column="21" lean-forward="false" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Playfair.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Playfair.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="22" column="9" lean-forward="false" selection-start-line="13" selection-start-column="8" selection-end-line="22" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Rail_Fence.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Rail_Fence.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-44">
+              <caret line="12" column="28" lean-forward="false" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Columnar.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Columnar.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-61">
+              <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Straddling_Checkerboard.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Straddling_Checkerboard.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="85" column="33" lean-forward="false" selection-start-line="85" selection-start-column="33" selection-end-line="85" selection-end-column="33" />
               <folding>
-                <element signature="n#!!doc" expanded="true" />
-                <element signature="imports" expanded="true" />
+                <element signature="method#encrypt#0;class#Straddling_Checkerboard#0" expanded="false" />
+                <element signature="method#decrypt#0;class#Straddling_Checkerboard#0" expanded="false" />
+                <element signature="method#fill#0;class#Straddling_Checkerboard#0" expanded="false" />
+                <element signature="method#keyCompressor#0;class#Straddling_Checkerboard#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Transition.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Transition.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="313">
+              <caret line="24" column="50" lean-forward="false" selection-start-line="24" selection-start-column="50" selection-end-line="24" selection-end-column="50" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -78,59 +128,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Character_Set.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Character_Set.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="52" lean-forward="false" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="52" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Columnar.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Columnar.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Vigenere.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Vigenere.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="30" column="9" lean-forward="false" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Vigenere_Autokey.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Vigenere_Autokey.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="663">
-              <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+            <state relative-caret-position="51">
+              <caret line="3" column="13" lean-forward="false" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Key_Manipulator.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Key_Manipulator.java">
+      <file leaf-file-name="Myszkowski.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Myszkowski.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="636">
-              <caret line="153" column="16" lean-forward="false" selection-start-line="153" selection-start-column="16" selection-end-line="153" selection-end-column="16" />
-              <folding>
-                <element signature="method#keyShortener#0;class#Key_Manipulator#0" expanded="false" />
-                <element signature="method#keyAddAlphabet#0;class#Key_Manipulator#0" expanded="false" />
-                <element signature="method#keyRepeater#0;class#Key_Manipulator#0" expanded="false" />
-                <element signature="method#keyAutokey#0;class#Key_Manipulator#0" expanded="false" />
-                <element signature="method#keyNumericalOrderer#0;class#Key_Manipulator#0" expanded="false" />
-                <element signature="method#intValue#0;class#Key_Manipulator#0" expanded="false" />
-              </folding>
+            <state relative-caret-position="782">
+              <caret line="46" column="35" lean-forward="true" selection-start-line="46" selection-start-column="35" selection-end-line="46" selection-end-column="35" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -649,7 +662,14 @@
       <option name="project" value="LOCAL" />
       <updated>1512445018015</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Finished Histo with stand dev, avg, range">
+      <created>1512596742528</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1512596742528</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -686,7 +706,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1416" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -697,7 +717,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3284839" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3284839" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -762,11 +782,12 @@
     <MESSAGE value="Added Class for key shortening and appending the alphabet to the end of a key." />
     <MESSAGE value="KeyManipulator has new features, Vigenere Encryption works, Vigenere Autokey encryption works, started Playfair class, can currently make the square, just need to finish up started logic of the actual encryption." />
     <MESSAGE value="Histogram and Columnar" />
-    <option name="LAST_COMMIT_MESSAGE" value="Histogram and Columnar" />
+    <MESSAGE value="Finished Histo with stand dev, avg, range" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished Histo with stand dev, avg, range" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="12" />
+      <option name="time" value="13" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -845,6 +866,7 @@
             <element signature="method#charValueTest#0;class#Cipher_Tests#0" expanded="false" />
             <element signature="method#intValueTest#0;class#Cipher_Tests#0" expanded="false" />
             <element signature="method#vigenereAutokeyTest#0;class#Cipher_Tests#0" expanded="false" />
+            <element signature="method#vigenereEncryptionTest#0;class#Cipher_Tests#0" expanded="false" />
             <element signature="method#vigenereAutokeyEncryptionTest#0;class#Cipher_Tests#0" expanded="false" />
             <element signature="method#arrayListColumnOrderTest#0;class#Cipher_Tests#0" expanded="false" />
             <element signature="method#columnarTest#0;class#Cipher_Tests#0" expanded="false" />
@@ -926,6 +948,7 @@
             <element signature="method#charValueTest#0;class#Cipher_Tests#0" expanded="false" />
             <element signature="method#intValueTest#0;class#Cipher_Tests#0" expanded="false" />
             <element signature="method#vigenereAutokeyTest#0;class#Cipher_Tests#0" expanded="false" />
+            <element signature="method#vigenereEncryptionTest#0;class#Cipher_Tests#0" expanded="false" />
             <element signature="method#vigenereAutokeyEncryptionTest#0;class#Cipher_Tests#0" expanded="false" />
             <element signature="method#arrayListColumnOrderTest#0;class#Cipher_Tests#0" expanded="false" />
             <element signature="method#columnarTest#0;class#Cipher_Tests#0" expanded="false" />
@@ -1031,6 +1054,7 @@
             <element signature="method#charValueTest#0;class#Cipher_Tests#0" expanded="false" />
             <element signature="method#intValueTest#0;class#Cipher_Tests#0" expanded="false" />
             <element signature="method#vigenereAutokeyTest#0;class#Cipher_Tests#0" expanded="false" />
+            <element signature="method#vigenereEncryptionTest#0;class#Cipher_Tests#0" expanded="false" />
             <element signature="method#vigenereAutokeyEncryptionTest#0;class#Cipher_Tests#0" expanded="false" />
             <element signature="method#arrayListColumnOrderTest#0;class#Cipher_Tests#0" expanded="false" />
             <element signature="method#columnarTest#0;class#Cipher_Tests#0" expanded="false" />
@@ -1112,6 +1136,7 @@
             <element signature="method#charValueTest#0;class#Cipher_Tests#0" expanded="false" />
             <element signature="method#intValueTest#0;class#Cipher_Tests#0" expanded="false" />
             <element signature="method#vigenereAutokeyTest#0;class#Cipher_Tests#0" expanded="false" />
+            <element signature="method#vigenereEncryptionTest#0;class#Cipher_Tests#0" expanded="false" />
             <element signature="method#vigenereAutokeyEncryptionTest#0;class#Cipher_Tests#0" expanded="false" />
             <element signature="method#arrayListColumnOrderTest#0;class#Cipher_Tests#0" expanded="false" />
             <element signature="method#columnarTest#0;class#Cipher_Tests#0" expanded="false" />
@@ -1173,18 +1198,11 @@
             <element signature="method#charValueTest#0;class#Cipher_Tests#0" expanded="false" />
             <element signature="method#intValueTest#0;class#Cipher_Tests#0" expanded="false" />
             <element signature="method#vigenereAutokeyTest#0;class#Cipher_Tests#0" expanded="false" />
+            <element signature="method#vigenereEncryptionTest#0;class#Cipher_Tests#0" expanded="false" />
             <element signature="method#vigenereAutokeyEncryptionTest#0;class#Cipher_Tests#0" expanded="false" />
             <element signature="method#arrayListColumnOrderTest#0;class#Cipher_Tests#0" expanded="false" />
             <element signature="method#columnarTest#0;class#Cipher_Tests#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Transition.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="50" lean-forward="false" selection-start-line="24" selection-start-column="50" selection-end-line="24" selection-end-column="50" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1195,69 +1213,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Nihilist.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="36" column="21" lean-forward="false" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="21" />
-          <folding>
-            <element signature="e#270#279#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Straddling_Checkerboard.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="88" column="55" lean-forward="true" selection-start-line="88" selection-start-column="8" selection-end-line="88" selection-end-column="55" />
-          <folding>
-            <element signature="method#encrypt#0;class#Straddling_Checkerboard#0" expanded="false" />
-            <element signature="method#decrypt#0;class#Straddling_Checkerboard#0" expanded="false" />
-            <element signature="method#fill#0;class#Straddling_Checkerboard#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Myszkowski.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="755">
-          <caret line="69" column="5" lean-forward="false" selection-start-line="10" selection-start-column="4" selection-end-line="69" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Rail_Fence.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="28" lean-forward="false" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Test/Text.txt" />
-    <entry file="file://$PROJECT_DIR$/src/Columnar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Vigenere.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="30" column="9" lean-forward="false" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Vigenere_Autokey.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Key_Manipulator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="636">
@@ -1284,10 +1240,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Playfair.java">
+    <entry file="file://$PROJECT_DIR$/src/Character_Set.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-690">
-          <caret line="22" column="9" lean-forward="false" selection-start-line="13" selection-start-column="8" selection-end-line="22" selection-end-column="9" />
+        <state relative-caret-position="340">
+          <caret line="20" column="52" lean-forward="false" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Vigenere.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" column="9" lean-forward="false" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Vigenere_Autokey.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="13" lean-forward="false" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Myszkowski.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="782">
+          <caret line="46" column="35" lean-forward="true" selection-start-line="46" selection-start-column="35" selection-end-line="46" selection-end-column="35" />
           <folding />
         </state>
       </provider>
@@ -1302,17 +1282,62 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Character_Set.java">
+    <entry file="file://$PROJECT_DIR$/src/Nihilist.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="36" column="21" lean-forward="false" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Playfair.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="9" lean-forward="false" selection-start-line="13" selection-start-column="8" selection-end-line="22" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Rail_Fence.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-44">
+          <caret line="12" column="28" lean-forward="false" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Straddling_Checkerboard.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
-          <caret line="20" column="52" lean-forward="false" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="52" />
+          <caret line="85" column="33" lean-forward="false" selection-start-line="85" selection-start-column="33" selection-end-line="85" selection-end-column="33" />
+          <folding>
+            <element signature="method#encrypt#0;class#Straddling_Checkerboard#0" expanded="false" />
+            <element signature="method#decrypt#0;class#Straddling_Checkerboard#0" expanded="false" />
+            <element signature="method#fill#0;class#Straddling_Checkerboard#0" expanded="false" />
+            <element signature="method#keyCompressor#0;class#Straddling_Checkerboard#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Transition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="24" column="50" lean-forward="false" selection-start-line="24" selection-start-column="50" selection-end-line="24" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Columnar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-61">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Test/Cipher_Tests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-942">
+        <state relative-caret-position="163">
           <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
           <folding>
             <element signature="method#TransitionEncrypt#0;class#Cipher_Tests#0" expanded="false" />
@@ -1333,6 +1358,7 @@
             <element signature="method#charValueTest#0;class#Cipher_Tests#0" expanded="false" />
             <element signature="method#intValueTest#0;class#Cipher_Tests#0" expanded="false" />
             <element signature="method#vigenereAutokeyTest#0;class#Cipher_Tests#0" expanded="false" />
+            <element signature="method#vigenereEncryptionTest#0;class#Cipher_Tests#0" expanded="false" />
             <element signature="method#vigenereAutokeyEncryptionTest#0;class#Cipher_Tests#0" expanded="false" />
             <element signature="method#arrayListColumnOrderTest#0;class#Cipher_Tests#0" expanded="false" />
             <element signature="method#columnarTest#0;class#Cipher_Tests#0" expanded="false" />
