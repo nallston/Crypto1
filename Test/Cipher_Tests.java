@@ -328,4 +328,15 @@ public class Cipher_Tests {
         }
 
     }
+
+    @Test
+    public void nihilistCipherTest(){
+        Nihilist n = new Nihilist();
+        String msg = "hello";
+        String returned = new String(n.encrypt(msg.toCharArray(),"hey", "hello"));
+
+        System.out.println(returned);
+
+    }
+
 }
