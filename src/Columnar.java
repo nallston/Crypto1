@@ -1,5 +1,4 @@
-import java.lang.reflect.Array;
-import java.util.ArrayList;
+
 
 /**
  * Created by Brendan on 12/4/2017.
@@ -8,43 +7,68 @@ public class Columnar {
 
     Columnar(){}
 
-    public void encrypt(char[] message, String key){
-        Key_Manipulator km = new Key_Manipulator();
-        ArrayList<Integer> order = km.keyNumericalOrderer(key);
-        String finalOutput = "";
 
-        ArrayList<ArrayList<String>> columns = new ArrayList<ArrayList<String>>();
+    public char[] Encrypt(char[] characters, String key) {
 
-        for(int i = 0; i < key.length(); i++){
-            columns.add(new ArrayList<>());
+
+
+        int rows = characters.length % key.length();
+        if(rows > 0){
+            rows = characters.length / key.length() +1;
+        }
+        else{
+            rows = characters.length / key.length();
+        }
+        char[][] grid = new char[rows][key.length()];
+
+        for(int i =0; i < rows; i++){
+            for(int k=0; k < key.length(); k++){
+                if((i * key.length() + k) >= characters.length){
+                }
+                else{
+                    grid[i][k]= characters[(i * key.length()) + k];
+                }
+            }
         }
 
-        int counter = 0;
-        int index = 0;
-        while(counter<message.length){
-            if(index>order.size()){
-                index = 0;
+        String ciphertext ="";
+        char[] key_array = key.toCharArray();
+        int[][] Values = new int[key.length()][2];
+
+        for(int k =0; k < key.length(); k++){
+            Values[k][0] = (int)key_array[k];
+        }
+
+        int step_number = 0;
+        for(int i =0; i < 256; i++){
+
+
+            for(int k =0; k <key.length(); k++){
+
+                if(Values[k][0] == i){
+                    Values[k][1] = step_number;
+                    step_number+=1;
+
+                }
             }
 
-            columns.get(index).add(Character.toString(key.charAt(counter)));
 
-
-            counter++;
         }
 
-        counter = 0;
+        for(int i =0; i < step_number; i++){
 
-
-        for(int i = 0; i<key.length(); i++){
-
-            if(counter==order.get(i)){
-                finalOutput += Integer.toString(order.get(i));
-                counter++;
+            for(int p =0; p < rows; p++){
+                for(int k=0; k < key.length(); k++){
+                    if(grid[p][k] == 0){
+                    }
+                    else if(Values[k][1] == i){
+                        ciphertext += grid[p][k];
+                    }
+                }
             }
-
-
         }
-
+        char[] output = ciphertext.toCharArray();
+        return output;
     }
 
 }

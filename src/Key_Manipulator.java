@@ -138,4 +138,25 @@ public class Key_Manipulator {
         return cs.Characters_Array[x];
     }
 
+    public String keyConformer(String text){
+        Character_Set cs = new Character_Set(26);
+        int i =0;
+        String fixed ="";
+        while(i < text.length()){
+
+            for(int x =0; x<26; x++){
+
+                if(text.charAt(i) == cs.Characters_Array[x]){
+                    fixed += text.charAt(i);
+                }
+
+            }
+            i++;
+
+        }
+
+
+        return fixed;
+    }
+
 }

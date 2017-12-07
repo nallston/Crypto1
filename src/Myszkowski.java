@@ -4,16 +4,11 @@
  * Created by Nathan on 11/29/2017.
  */
 public class Myszkowski {
-    private char[] characters;
-    private int Transition_Key;
-    private String key;
 
-    public Myszkowski(char[] characters, String key){
-        this.characters = characters;
-        this.key = key;
-    }
 
-    public char[] Encrypt() {
+    public Myszkowski(){}
+
+    public char[] Encrypt(char[] characters, String key) {
         int rows = characters.length % key.length();
         if(rows > 0){
             rows = characters.length / key.length() +1;
