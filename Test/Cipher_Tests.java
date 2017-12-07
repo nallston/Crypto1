@@ -347,7 +347,7 @@ public class Cipher_Tests {
     public void fileReaderTest() throws IOException {
         Filetostring fts = new Filetostring();
 
-        String returned = fts.Filetostring("src/declaration.txt");
+        String returned = fts.Filetostring("src/example.txt");
         Vigenere v = new Vigenere();
         String str = new String(v.encrypt(returned.toCharArray(),"key"));
         Histogram h = new Histogram();
