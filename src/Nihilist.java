@@ -65,6 +65,7 @@ public class Nihilist {
         }
 
 
+
         for(int i = 0; i < message.length; i++){
 
             output += Integer.toString(keytext.get(i) + ctext.get(i));

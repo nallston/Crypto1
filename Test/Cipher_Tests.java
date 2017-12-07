@@ -4,6 +4,7 @@ import org.junit.BeforeClass;
 import org.junit.Test;
 import org.junit.Before;
 
+import java.io.IOException;
 import java.security.Key;
 import java.util.ArrayList;
 
@@ -57,9 +58,9 @@ public class Cipher_Tests {
         String Text = "attackquietlybeforedawn";
         char[] Text_Array = Text.toCharArray();
 
-        Myszkowski test1 = new Myszkowski(Text_Array,"hello");
+        Myszkowski test1 = new Myszkowski();
 
-        char[] output = test1.Encrypt();
+        char[] output = test1.Encrypt(Text_Array,"hello");
 
         String Output_String = new String(output);
         assertEquals("tqlowaktfatauiybrenceed",Output_String);
@@ -72,9 +73,9 @@ public class Cipher_Tests {
         String Text = "attackquietlybeforedawn";
         char[] Text_Array = Text.toCharArray();
 
-        Myszkowski test1 = new Myszkowski(Text_Array,"dqrkbnfaddloue");
+        Myszkowski test1 = new Myszkowski();
 
-        char[] output = test1.Encrypt();
+        char[] output = test1.Encrypt(Text_Array,"dqrkbnfaddloue");
 
         String Output_String = new String(output);
         assertEquals("uwceaieenbqaartkdltftoy",Output_String);
@@ -328,4 +329,29 @@ public class Cipher_Tests {
         }
 
     }
+
+    @Test
+    public void nihilistTest(){
+        Nihilist n = new Nihilist();
+        String key = "key";
+        String message = "hello";
+        String squareKey = "hey";
+        String returned = new String(n.encrypt(message.toCharArray(),key,squareKey));
+
+        System.out.println(returned);
+
+
+    }
+
+    @Test
+    public void fileReaderTest() throws IOException {
+        Filetostring fts = new Filetostring();
+
+        String returned = fts.Filetostring("src/example.txt");
+        Vigenere v = new Vigenere();
+        String str = new String(v.encrypt(returned.toCharArray(),"key"));
+        Histogram h = new Histogram();
+        h.AggregateNumbers(str.toCharArray());
+    }
+
 }

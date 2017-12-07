@@ -9,7 +9,8 @@ public class Filetostring {
 
 
    public String Filetostring(String fileName) throws IOException {
-        BufferedReader br = new BufferedReader(new FileReader(fileName));
+        FileReader fr = new FileReader(fileName);
+        BufferedReader br = new BufferedReader(fr);
         try {
             StringBuilder sb = new StringBuilder();
             String line = br.readLine();
