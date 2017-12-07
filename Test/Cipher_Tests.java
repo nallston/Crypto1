@@ -347,11 +347,33 @@ public class Cipher_Tests {
     public void fileReaderTest() throws IOException {
         Filetostring fts = new Filetostring();
 
-        String returned = fts.Filetostring("src/example.txt");
+        String returned = fts.Filetostring("src/declaration.txt");
         Vigenere v = new Vigenere();
         String str = new String(v.encrypt(returned.toCharArray(),"key"));
         Histogram h = new Histogram();
+        //h.AggregateNumbers(str.toCharArray());
+    }
+
+    @Test
+    public void declarationHistogramTest() throws IOException {
+
+        Filetostring fts = new Filetostring();
+        String returned = fts.Filetostring("src/declaration.txt");
+        Key_Manipulator km = new Key_Manipulator();
+        String nopunc = km.keyConformer(returned);
+
+        Histogram h = new Histogram();
+        h.AggregateNumbers(nopunc.toCharArray());
+
+        Vigenere v = new Vigenere();
+        Vigenere_Autokey va = new Vigenere_Autokey();
+        String str = new String(v.encrypt(va.encrypt(nopunc.toCharArray(),"gator"),"gator"));
         h.AggregateNumbers(str.toCharArray());
+
+
+        String str2 = new String(va.encrypt(v.encrypt(nopunc.toCharArray(),"gator"), "gator"));
+        h.AggregateNumbers(str2.toCharArray());
+
     }
     @Test
     public void BigramTest() throws IOException {

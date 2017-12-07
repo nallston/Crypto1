@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dddbf357-65b3-488e-8383-3b189eb20d8f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/example.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/declaration.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Test/Cipher_Tests.java" afterPath="$PROJECT_DIR$/Test/Cipher_Tests.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Filetostring.java" afterPath="$PROJECT_DIR$/src/Filetostring.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Nihilist.java" afterPath="$PROJECT_DIR$/src/Nihilist.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,11 +20,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Cipher_Tests.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Cipher_Tests.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Test/Cipher_Tests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="411">
-              <caret line="353" column="46" lean-forward="true" selection-start-line="353" selection-start-column="46" selection-end-line="353" selection-end-column="46" />
+            <state relative-caret-position="326">
+              <caret line="365" column="49" lean-forward="true" selection-start-line="365" selection-start-column="49" selection-end-line="365" selection-end-column="49" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -34,11 +32,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="example.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/example.txt">
+      <file leaf-file-name="declaration.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/declaration.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+            <state relative-caret-position="272">
+              <caret line="16" column="74" lean-forward="false" selection-start-line="16" selection-start-column="74" selection-end-line="16" selection-end-column="74" />
               <folding />
             </state>
           </provider>
@@ -47,8 +45,8 @@
       <file leaf-file-name="Filetostring.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Filetostring.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="12" column="51" lean-forward="true" selection-start-line="12" selection-start-column="51" selection-end-line="12" selection-end-column="51" />
+            <state relative-caret-position="306">
+              <caret line="20" column="37" lean-forward="true" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
               <folding />
             </state>
           </provider>
@@ -57,8 +55,8 @@
       <file leaf-file-name="Playfair.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Playfair.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-272">
-              <caret line="26" column="41" lean-forward="true" selection-start-line="26" selection-start-column="41" selection-end-line="26" selection-end-column="41" />
+            <state relative-caret-position="408">
+              <caret line="24" column="49" lean-forward="true" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="49" />
               <folding />
             </state>
           </provider>
@@ -67,9 +65,11 @@
       <file leaf-file-name="Histogram.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Histogram.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
+            <state relative-caret-position="85">
               <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-              <folding />
+              <folding>
+                <element signature="method#AggregateNumbers#0;class#Histogram#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -94,11 +94,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Nihilist.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Nihilist.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Nihilist.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="428">
-              <caret line="67" column="8" lean-forward="false" selection-start-line="67" selection-start-column="8" selection-end-line="67" selection-end-column="8" />
+              <caret line="67" column="0" lean-forward="false" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
               <folding>
                 <element signature="e#290#299#0" expanded="true" />
                 <element signature="e#353#362#0" expanded="true" />
@@ -120,8 +120,8 @@
       <file leaf-file-name="Key_Manipulator.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Key_Manipulator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="120" column="32" lean-forward="false" selection-start-line="120" selection-start-column="32" selection-end-line="120" selection-end-column="32" />
+            <state relative-caret-position="425">
+              <caret line="140" column="0" lean-forward="false" selection-start-line="140" selection-start-column="0" selection-end-line="140" selection-end-column="0" />
               <folding>
                 <element signature="method#keyShortener#0;class#Key_Manipulator#0" expanded="false" />
                 <element signature="method#keyAddAlphabet#0;class#Key_Manipulator#0" expanded="false" />
@@ -130,6 +130,7 @@
                 <element signature="method#keyNumericalOrderer#0;class#Key_Manipulator#0" expanded="false" />
                 <element signature="method#charValue#0;class#Key_Manipulator#0" expanded="false" />
                 <element signature="method#intValue#0;class#Key_Manipulator#0" expanded="false" />
+                <element signature="method#keyConformer#0;class#Key_Manipulator#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -165,9 +166,9 @@
         <option value="$PROJECT_DIR$/src/Key_Manipulator.java" />
         <option value="$PROJECT_DIR$/src/Columnar.java" />
         <option value="$PROJECT_DIR$/src/Filetostring.java" />
+        <option value="$PROJECT_DIR$/src/Nihilist.java" />
         <option value="$PROJECT_DIR$/src/example.txt" />
         <option value="$PROJECT_DIR$/Test/Cipher_Tests.java" />
-        <option value="$PROJECT_DIR$/src/Nihilist.java" />
       </list>
     </option>
   </component>
@@ -256,9 +257,9 @@
           <option name="mySupportsDeletion" value="false" />
           <option name="myCanBeAbsent" value="false" />
           <option name="myId" value="UPDATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/Columnar.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/Key_Manipulator.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/Myszkowski.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Test/Cipher_Tests.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/Histogram.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/example.txt</PATH>
         </FILE-GROUP>
         <FILE-GROUP>
           <option name="myUpdateName" value="Created" />
@@ -266,8 +267,6 @@
           <option name="mySupportsDeletion" value="false" />
           <option name="myCanBeAbsent" value="false" />
           <option name="myId" value="CREATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/Filetostring.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/Histogram.java</PATH>
         </FILE-GROUP>
         <FILE-GROUP>
           <option name="myUpdateName" value="Deleted" />
@@ -304,8 +303,6 @@
         <option name="mySupportsDeletion" value="false" />
         <option name="myCanBeAbsent" value="false" />
         <option name="myId" value="MERGED_WITH_CONFLICTS" />
-        <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/workspace.xml</PATH>
-        <PATH vcs="Git" revision="">$PROJECT_DIR$/Test/Cipher_Tests.java</PATH>
       </FILE-GROUP>
       <FILE-GROUP>
         <option name="myUpdateName" value="Merged with tree conflicts" />
@@ -677,31 +674,17 @@
       <option name="project" value="LOCAL" />
       <updated>1512430054852</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Some Stuff">
+      <created>1512645038641</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1512645038641</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Cipher_Tests - 2017.12.07 at 04h 20m 27s.xml">
-      <configuration name="Cipher_Tests" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Cipher_Tests - 2017.12.07 at 04h 21m 32s.xml">
-      <configuration name="Cipher_Tests" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Cipher_Tests - 2017.12.07 at 04h 22m 44s.xml">
-      <configuration name="Cipher_Tests" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Cipher_Tests - 2017.12.07 at 04h 42m 35s.xml">
-      <configuration name="Cipher_Tests" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Cipher_Tests - 2017.12.07 at 04h 44m 21s.xml">
-      <configuration name="Cipher_Tests" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Cipher_Tests - 2017.12.07 at 04h 44m 44s.xml">
-      <configuration name="Cipher_Tests" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Cipher_Tests - 2017.12.07 at 04h 48m 59s.xml">
-      <configuration name="Cipher_Tests" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="Cipher_Tests - 2017.12.07 at 04h 55m 44s.xml">
       <configuration name="Cipher_Tests" configurationId="JUnit" />
     </history-entry>
@@ -711,34 +694,55 @@
     <history-entry file="Cipher_Tests - 2017.12.07 at 06h 10m 16s.xml">
       <configuration name="Cipher_Tests" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="Cipher_Tests - 2017.12.07 at 06h 23m 21s.xml">
+      <configuration name="Cipher_Tests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Cipher_Tests - 2017.12.07 at 06h 25m 10s.xml">
+      <configuration name="Cipher_Tests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Cipher_Tests - 2017.12.07 at 06h 34m 06s.xml">
+      <configuration name="Cipher_Tests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Cipher_Tests - 2017.12.07 at 06h 36m 50s.xml">
+      <configuration name="Cipher_Tests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Cipher_Tests - 2017.12.07 at 06h 43m 51s.xml">
+      <configuration name="Cipher_Tests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Cipher_Tests - 2017.12.07 at 06h 48m 05s.xml">
+      <configuration name="Cipher_Tests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Cipher_Tests - 2017.12.07 at 06h 59m 39s.xml">
+      <configuration name="Cipher_Tests" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32980973" sideWeight="0.50208336" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Memory View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980973" sideWeight="0.49166667" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run Dashboard" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32875264" sideWeight="0.48229167" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32875264" sideWeight="0.51770836" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980973" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32875264" sideWeight="0.515625" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32980973" sideWeight="0.49791667" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Memory View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980973" sideWeight="0.49791667" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -767,7 +771,6 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
     </layout>
@@ -832,11 +835,12 @@
     <MESSAGE value="Added Class for key shortening and appending the alphabet to the end of a key." />
     <MESSAGE value="KeyManipulator has new features, Vigenere Encryption works, Vigenere Autokey encryption works, started Playfair class, can currently make the square, just need to finish up started logic of the actual encryption." />
     <MESSAGE value="Pushing before you pull" />
-    <option name="LAST_COMMIT_MESSAGE" value="Pushing before you pull" />
+    <MESSAGE value="Some Stuff" />
+    <option name="LAST_COMMIT_MESSAGE" value="Some Stuff" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="2" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -881,6 +885,7 @@
             <element signature="method#keyNumericalOrderer#0;class#Key_Manipulator#0" expanded="false" />
             <element signature="method#charValue#0;class#Key_Manipulator#0" expanded="false" />
             <element signature="method#intValue#0;class#Key_Manipulator#0" expanded="false" />
+            <element signature="method#keyConformer#0;class#Key_Manipulator#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1202,58 +1207,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Key_Manipulator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="120" column="32" lean-forward="false" selection-start-line="120" selection-start-column="32" selection-end-line="120" selection-end-column="32" />
-          <folding>
-            <element signature="method#keyShortener#0;class#Key_Manipulator#0" expanded="false" />
-            <element signature="method#keyAddAlphabet#0;class#Key_Manipulator#0" expanded="false" />
-            <element signature="method#keyRepeater#0;class#Key_Manipulator#0" expanded="false" />
-            <element signature="method#keyAutokey#0;class#Key_Manipulator#0" expanded="false" />
-            <element signature="method#keyNumericalOrderer#0;class#Key_Manipulator#0" expanded="false" />
-            <element signature="method#charValue#0;class#Key_Manipulator#0" expanded="false" />
-            <element signature="method#intValue#0;class#Key_Manipulator#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Myszkowski.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Histogram.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Playfair.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-272">
-          <caret line="26" column="41" lean-forward="true" selection-start-line="26" selection-start-column="41" selection-end-line="26" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Filetostring.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="12" column="51" lean-forward="true" selection-start-line="12" selection-start-column="51" selection-end-line="12" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/example.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
           <folding />
         </state>
       </provider>
@@ -1274,23 +1231,74 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Test/Cipher_Tests.java">
+    <entry file="file://$PROJECT_DIR$/src/Nihilist.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="411">
-          <caret line="353" column="46" lean-forward="true" selection-start-line="353" selection-start-column="46" selection-end-line="353" selection-end-column="46" />
+        <state relative-caret-position="428">
+          <caret line="67" column="0" lean-forward="false" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#290#299#0" expanded="true" />
+            <element signature="e#353#362#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Nihilist.java">
+    <entry file="file://$PROJECT_DIR$/src/Filetostring.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="428">
-          <caret line="67" column="8" lean-forward="false" selection-start-line="67" selection-start-column="8" selection-end-line="67" selection-end-column="8" />
+        <state relative-caret-position="306">
+          <caret line="20" column="37" lean-forward="true" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Histogram.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
           <folding>
-            <element signature="e#290#299#0" expanded="true" />
-            <element signature="e#353#362#0" expanded="true" />
+            <element signature="method#AggregateNumbers#0;class#Histogram#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Key_Manipulator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="140" column="0" lean-forward="false" selection-start-line="140" selection-start-column="0" selection-end-line="140" selection-end-column="0" />
+          <folding>
+            <element signature="method#keyShortener#0;class#Key_Manipulator#0" expanded="false" />
+            <element signature="method#keyAddAlphabet#0;class#Key_Manipulator#0" expanded="false" />
+            <element signature="method#keyRepeater#0;class#Key_Manipulator#0" expanded="false" />
+            <element signature="method#keyAutokey#0;class#Key_Manipulator#0" expanded="false" />
+            <element signature="method#keyNumericalOrderer#0;class#Key_Manipulator#0" expanded="false" />
+            <element signature="method#charValue#0;class#Key_Manipulator#0" expanded="false" />
+            <element signature="method#intValue#0;class#Key_Manipulator#0" expanded="false" />
+            <element signature="method#keyConformer#0;class#Key_Manipulator#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Playfair.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="49" lean-forward="true" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/declaration.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="74" lean-forward="false" selection-start-line="16" selection-start-column="74" selection-end-line="16" selection-end-column="74" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test/Cipher_Tests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="365" column="49" lean-forward="true" selection-start-line="365" selection-start-column="49" selection-end-line="365" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
